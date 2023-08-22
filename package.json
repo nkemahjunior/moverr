@@ -1,0 +1,16 @@
+{
+  "name": "moverr",
+  "version": "1.0.0",
+  "description": "trailer app",
+  "default": "html/index.html",
+  "scripts": {
+    "start": "parcel html/index.html",
+    "build": "parcel html/index.html"
+  },
+  "author": "zeco malo",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "swiper": "^10.2.0"
+  }
+}

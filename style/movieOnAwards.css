@@ -1,0 +1,272 @@
+
+.movie-awards{
+    display: grid;
+    grid-template-columns: 2fr 1fr  1fr;
+    gap: 2rem;
+    margin: 3rem 0 2rem 0;
+    /* border: 2px solid red; */
+    padding-left: 3.5rem;
+    max-width: 100vw;
+}
+
+.movie-awards-1{
+    /* border: 2px solid blue; */
+    min-width: 0;
+    /* padding: 2rem */
+}
+
+.movie-awards-swiper{
+    /* border: 2px solid brown; */
+    /* padding: 2rem */
+}
+
+.movie-awards-wrapper{
+    height: 70rem;
+    /* border: 2px solid blueviolet; */
+    /* padding: 2rem */
+    
+}
+
+.movie-awards-slide{
+    /* border: 2px solid fuchsia; */
+
+}
+
+.movie-awards-img{
+    width: 100%;
+    height: 50%;
+}
+
+.movie-awards-info{
+    /* border: 2px solid slateblue; */
+    margin-top: 3rem;
+    overflow: hidden;
+}
+
+.movie-awards-category{
+   display: inline-block;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #0d0c0f;
+    padding: 0.7rem;
+    border-radius: 1rem;
+}
+
+.movie-awards-title{
+    /* border: 2px solid khaki; */
+    margin-top: 2rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    display: block;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #FFFFFF;
+}
+
+.movie-awards-rating-genre{
+    margin-top: 2rem;
+    display: block;
+    /* border: 2px solid indigo; */
+}
+
+.movie-awards-overview{
+    margin-top: 1rem;
+    /* border: 2px solid fuchsia; */
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+    /* letter-spacing: 0.1rem; */
+    line-height: 2rem;
+    color: #FFFFFF;
+    display: block;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    white-space: pre-wrap;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* border: 2px solid aqua; */
+    margin-top: 5rem;
+}
+.movie-awards-play{
+    border-radius:1rem ;
+    margin: 1.6rem 20rem 1.6rem 0rem;
+    display: inline-block;
+    padding: 1rem;
+    background-color: rgba(0, 146, 93,0.7);
+    cursor: pointer;
+    transition: all 1s;
+}
+.movie-awards-play:hover{
+    background-color: rgba(0, 146, 93,1);
+    transform: scale(1.1);
+}
+
+.movie-awards-add{
+    border-radius: 1rem;
+    
+    
+    padding: 1rem;
+    background-color: rgba(40, 38, 45,0.6);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.movie-awards-add:hover{
+    transform: scale(1.1);
+    background-color: rgba(40, 38, 45,0.9);
+}
+
+.movie-awards-Prev,.movie-awards-Next{
+    top: 2rem;
+    color: #F9F9F9;
+
+
+}
+.movie-awards-Prev{
+    left: 60rem;
+}
+.movie-awards-Next{
+    right: 1.3rem;
+}
+
+.fast{
+    /* border: 2px solid green; */
+    min-width: 0;
+}
+
+.fast-wrapper{
+    /* border: 2px solid blue; */
+    height: 70rem;
+}
+
+.fast-slide{
+    /* border: 2px solid red; */
+}
+
+.fast-Prev,.fast-Next{
+    top: 2rem;
+    color: #F9F9F9;
+
+
+}
+.fast-Prev{
+    left: 25rem;
+}
+.fast-Next{
+    right: 1.3rem;
+}
+
+.fast-slide-grid{
+    position: relative;
+    /* border: 2px solid wheat; */
+    height: 15.8rem;
+}
+
+.fast-slide-grid:not(:last-child){
+    margin-bottom: 2rem;
+}
+
+.fast-slide-grid-img{
+    height: 100%;
+    width: 45%;
+    border-radius: 2rem;
+}
+
+.fast-slide-grid-info{
+    right: 2rem;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    /* border: 2px solid rebeccapurple; */
+    
+}
+
+.fast-pg{
+    display: inline-block;
+    border-radius: .4rem;
+    border: .1rem solid #808080;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #808080;
+    padding: .3rem;
+    text-transform: uppercase;
+   
+}
+.fast-title{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 2rem;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+.fast-genre{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: #808080;
+    margin-top: 2rem;
+    text-transform: capitalize;
+}
+.fast-rating{
+    display: inline-block;
+
+/* border: 2px solid gold; */
+display: flex;
+/* justify-content: center; */
+align-items: center;
+margin-top: 2rem;
+}
+
+.fast-rating-num{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}
+.fast-rating-genre{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: .8rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    color: #808080;
+    text-transform: capitalize;  
+}
+
+
+
+
+
+
+.live{
+    /* border: 2px solid gold; */
+    min-width: 0;
+}
+

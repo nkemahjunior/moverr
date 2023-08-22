@@ -1,0 +1,43 @@
+@media only screen and (min-width:200px){
+
+    .movies{
+        padding: 3rem 0rem 0 1rem;
+    }
+
+    .movies-Prev,.movies-Next{
+        visibility: hidden;
+        
+    }
+}
+
+
+
+@media only screen and (min-width:600px){
+
+  
+
+    .movies{
+
+        padding-left: 3rem;
+       
+    }
+
+}
+
+@media only screen and (min-width:900px){
+
+  
+
+    .movies{
+
+        padding-left: 5rem;
+       
+    }
+
+    .movies-Prev,.movies-Next{
+        visibility: visible;
+        
+    }
+
+
+}

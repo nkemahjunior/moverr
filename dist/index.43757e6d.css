@@ -1,0 +1,27 @@
+@media only screen and (width >= 200px) {
+  .series {
+    padding: 3rem 0 0 1rem;
+  }
+
+  .series-Prev, .series-Next {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (width >= 600px) {
+  .series {
+    padding-left: 3rem;
+  }
+}
+
+@media only screen and (width >= 900px) {
+  .series {
+    padding-left: 5rem;
+  }
+
+  .series-Prev, .series-Next {
+    visibility: visible;
+  }
+}
+
+/*# sourceMappingURL=index.43757e6d.css.map */

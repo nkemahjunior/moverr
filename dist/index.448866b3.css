@@ -1,0 +1,36 @@
+@media only screen and (width >= 200px) {
+  .realeased {
+    max-width: 100vw;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  .released-Prev, .released-Next {
+    color: #f9f9f9;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (width >= 300px) {
+  .realeased {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (width >= 600px) {
+  .realeased {
+    padding-left: 3rem;
+  }
+}
+
+@media only screen and (width >= 900px) {
+  .realeased {
+    padding-left: 5rem;
+  }
+
+  .released-Prev, .released-Next {
+    visibility: visible;
+  }
+}
+
+/*# sourceMappingURL=index.448866b3.css.map */

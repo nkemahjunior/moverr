@@ -1,0 +1,286 @@
+@media only screen and (min-width:200px){
+
+    .movie-awards{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0rem 0 1rem;
+        max-width: 100vw;
+    }
+
+    .movie-awards-wrapper{
+        height: 50rem;        
+    }
+
+    .movie-awards-info{
+        margin-top: 1rem;
+    }
+
+    .movie-awards-title{
+        margin-top: 1rem;
+
+    }
+
+    .movie-awards-rating-genre{
+        margin-top: 0rem;
+       
+    }
+
+    .movie-awards-overview{
+        margin-top: 0rem;
+    }
+    
+    .watch{
+        font-size: 1rem;
+        line-height: 1rem;
+          
+    }
+
+
+    .add{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .movie-awards-play:hover{
+        background-color: rgba(0, 146, 93,1);
+    }
+
+    .movie-awards-Prev,.movie-awards-Next{
+        visibility: hidden;    
+    }
+
+    .flex2{
+        margin-top: 1rem;
+    }
+
+
+    .fast{
+       margin-top: -5rem;
+        min-width: 0;
+    }
+
+    .fast-Prev{
+      visibility: hidden;
+    }
+    .fast-Next{
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (min-width:900px){
+    .fast-Prev,.fast-Next{
+        visibility: visible;
+        }
+        
+        .fast-Prev{
+            left: 7rem;
+        }
+        .fast-Next{
+            right: 2rem;
+        }
+        
+        .movie-awards-Prev,.movie-awards-Next{
+            visibility: visible;    
+        }
+        .movie-awards-Prev{
+            left: 80rem;
+        }
+        .movie-awards-Next{
+            right: 2rem;
+        }
+}
+
+@media only screen and (min-width:970px){
+
+        .movie-awards-Prev{
+            left: 85rem;
+        }
+        .movie-awards-Next{
+            right: 2rem;
+        }
+}
+
+@media only screen and (min-width:1030px){
+
+    .movie-awards-Prev{
+        left: 90rem;
+    }
+    .movie-awards-Next{
+        right: 2rem;
+    }
+}
+
+@media only screen and (min-width:1100px){
+
+    .movie-awards-Prev{
+        left: 100rem;
+    }
+    .movie-awards-Next{
+        right: 2rem;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .movie-awards{
+        display: grid;
+        grid-template-columns: 2fr 1fr  1fr;
+        gap: 2rem;
+        margin: 3rem 0 2rem 0;
+        /* border: 2px solid red; */
+        padding-left: 3.5rem;
+        max-width: 100vw;
+    }
+    .movie-awards-wrapper{
+        height: 70rem;
+        /* border: 2px solid blueviolet; */
+        /* padding: 2rem */
+        
+    }
+
+    .movie-awards-info{
+        /* border: 2px solid slateblue; */
+        margin-top: 3rem;
+    }
+
+    .movie-awards-title{
+        /* border: 2px solid khaki; */
+        margin-top: 2rem;
+    }
+
+    .movie-awards-rating-genre{
+        margin-top: 2rem;
+
+    }
+    
+    .movie-awards-overview{
+        margin-top: 1rem;
+
+    }
+
+    .watch{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    
+    }
+    .add{
+        font-size: 1.4rem;
+        line-height: 2rem;   
+    }
+
+    .movie-awards-Prev,.movie-awards-Next{
+        visibility: visible;    
+    }
+
+    .flex2{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        /* border: 2px solid aqua; */
+        margin-top: 5rem;
+    }
+    .fast{
+        margin-top: 0rem;
+         min-width: 0;
+     }
+
+    .fast-wrapper{
+        /* border: 2px solid blue; */
+        height: 70rem;
+    }
+
+    
+
+
+.fast-Prev{
+    left: 20rem;
+}
+.fast-Next{
+    right: 1.3rem;
+}
+
+
+.movie-awards-Prev{
+    left: 48rem;
+}
+.movie-awards-Next{
+    right: 1.3rem;
+}
+}
+
+@media only screen and (min-width:1400px){
+    .fast-Prev{
+        left: 25rem;
+    }
+    .fast-Next{
+        right: 1.3rem;
+    }
+
+    .movie-awards-Prev{
+        left: 58rem;
+    }
+    .movie-awards-Next{
+        right: 1.3rem;
+    }
+}
+
+@media only screen and (min-width:1300px){
+
+    .movie-awards-Prev{
+        left: 52rem;
+    }
+    .movie-awards-Next{
+        right: 1.3rem;
+    }
+}
+
+@media only screen and (min-width:1400px){
+
+    .movie-awards-Prev{
+        left: 59rem;
+    }
+    .movie-awards-Next{
+        right: 1.3rem;
+    }
+}
+
+@media only screen and (min-width:1520px){
+
+    .movie-awards-Prev{
+        left: 62rem;
+    }
+    .movie-awards-Next{
+        right: 1.3rem;
+    }
+}
+@media only screen and (min-width:1600px){
+    .fast-Prev{
+        left: 30rem;
+    }
+    .fast-Next{
+        right: 1.3rem;
+    }
+
+    .movie-awards-Prev{
+        left: 68rem;
+    }
+    .movie-awards-Next{
+        right: 1.3rem;
+    }
+}
+
+@media only screen and (min-width:1800px){
+    .fast-Prev{
+        left: 35rem;
+    }
+    .fast-Next{
+        right: 1.3rem;
+    }
+
+    .movie-awards-Prev{
+        left: 78rem;
+    }
+    .movie-awards-Next{
+        right: 1.3rem;
+    }
+}

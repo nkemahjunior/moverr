@@ -1,0 +1,24 @@
+.movies {
+  max-width: 100vw;
+  padding: 3rem 0 0 4rem;
+}
+
+.movies-wrapper {
+  height: 20rem;
+}
+
+.movies-img {
+  border-radius: 2rem;
+  width: 100%;
+  height: 80%;
+}
+
+.movies-slide-info {
+  padding-left: 2rem;
+}
+
+.movies-Prev, .movies-Next {
+  color: #f9f9f9;
+}
+
+/*# sourceMappingURL=index.b056a2bc.css.map */

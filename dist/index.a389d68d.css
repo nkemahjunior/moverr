@@ -1,0 +1,119 @@
+.realeased {
+  max-width: 100vw;
+  margin-top: 3rem;
+  padding-left: 5rem;
+}
+
+.realeased-slide {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.icont {
+  fill: #00925d;
+  width: 5rem;
+  height: 5rem;
+}
+
+.icont:hover {
+  width: 4rem;
+  height: 4rem;
+  transition: all .5s;
+}
+
+.play {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+
+.play-pp {
+  background-color: #000000b3;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+  position: absolute;
+  top: 0;
+}
+
+.off {
+  opacity: 0;
+}
+
+.realeased-slide-info {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  left: .5rem;
+}
+
+.realeased-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.realeased__heading {
+  color: #f9f9f9;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+  font-family: Rubik, sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 3.2rem;
+  position: relative;
+}
+
+.released-Prev, .released-Next {
+  color: #f9f9f9;
+}
+
+.realease-wraper {
+  height: 30rem;
+}
+
+.realeased-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: .1rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  display: block;
+  overflow: hidden;
+}
+
+.realeased-rating {
+  align-items: center;
+  display: flex;
+}
+
+.realeased-rating-num {
+  letter-spacing: .1rem;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.realeased-rating-genre {
+  letter-spacing: .1rem;
+  color: gray;
+  text-transform: capitalize;
+  font-family: Inter, sans-serif;
+  font-size: .8rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.realeased-play {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.a389d68d.css.map */

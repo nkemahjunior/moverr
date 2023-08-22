@@ -1,0 +1,26 @@
+.swiper {
+    height: 80vh;
+    width: 100vw;
+    
+    
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet-active{
+
+background-color: red;
+    
+}
+
+.swiper-pagination-bullet{
+background-color: red;
+}
+
+.swiper-scrollbar{
+    display: none;
+}

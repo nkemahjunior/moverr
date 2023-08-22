@@ -1,0 +1,51 @@
+@media only screen and (min-width:200px){
+
+    .series{
+        padding: 3rem 0rem 0 1rem;
+    }
+
+    .series-Prev,.series-Next{
+        visibility: hidden;
+        
+    }
+}
+
+/* @media only screen and (min-width:250px){
+
+    .series{
+
+        padding-right: 0rem;
+       
+     }
+   
+} */
+
+@media only screen and (min-width:600px){
+
+  
+
+    .series{
+
+        padding-left: 3rem;
+       
+    }
+
+}
+
+@media only screen and (min-width:900px){
+
+  
+
+    .series{
+
+        padding-left: 5rem;
+       
+    }
+
+    .series-Prev,.series-Next{
+        visibility: visible;
+        
+    }
+
+
+}

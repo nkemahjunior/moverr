@@ -1,0 +1,24 @@
+.series {
+  max-width: 100vw;
+  padding: 3rem 0 0 4rem;
+}
+
+.series-wrapper {
+  height: 20rem;
+}
+
+.series-img {
+  border-radius: 2rem;
+  width: 100%;
+  height: 80%;
+}
+
+.series-slide-info {
+  padding-left: 2rem;
+}
+
+.series-Prev, .series-Next {
+  color: #f9f9f9;
+}
+
+/*# sourceMappingURL=index.434a78bd.css.map */

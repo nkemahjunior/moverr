@@ -1,0 +1,35 @@
+.movies{
+    /* margin-top: 3rem; */
+    /* border: 2px solid red; */
+    max-width: 100vw;
+    padding: 3rem 0 0 4rem;
+}
+
+/* .moviesswiper{
+    border: 2px solid gold;
+} */
+
+.movies-wrapper{
+    /* border: 2px solid green; */
+    height: 20rem;
+}
+
+/* .movies-slide{
+    border: 2px solid blue;
+} */
+
+.movies-img{
+    width: 100%;
+    height: 80%;
+    border-radius: 2rem;
+}
+
+.movies-slide-info{
+    /* border: 2px solid red; */
+    padding-left: 2rem;
+}
+
+
+.movies-Prev,.movies-Next{
+    color: #F9F9F9;
+}

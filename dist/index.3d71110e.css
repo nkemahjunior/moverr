@@ -1,0 +1,407 @@
+:root {
+  --swiper-navigation-size: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1e1e1e;
+  max-width: 100%;
+  padding-top: 1rem;
+}
+
+.header {
+  max-width: 100vw;
+  height: 85vh;
+  margin-top: -1rem;
+  overflow: hidden;
+}
+
+.menu {
+  z-index: 11;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  right: .5rem;
+}
+
+.first {
+  visibility: hidden;
+  rotate: none;
+}
+
+.second {
+  transform: translateY(.3rem);
+}
+
+.third {
+  transform: translateY(-.3rem);
+}
+
+.margin {
+  margin-bottom: 0 !important;
+}
+
+.menu__holder {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.menu__holder-inner {
+  background-color: #00925d;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu__holder-div {
+  background-color: #000;
+  width: 90%;
+  height: .4rem;
+  margin-bottom: .7rem;
+}
+
+.menuContent {
+  z-index: 11;
+  background-color: #f9f9f9;
+  width: 25vw;
+  height: 90vh;
+  transition: all 1s;
+  position: fixed;
+  top: 5rem;
+  right: 0;
+}
+
+.addAnimation {
+  transform: translateX(50rem);
+}
+
+.removeAnimation {
+  transform: translateX(0);
+}
+
+.nav-bg {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 2rem .6rem #00925d33;
+}
+
+.nav {
+  z-index: 10;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+.nav__logo-img {
+  width: 10rem;
+  height: 3rem;
+}
+
+.nav__list-link:not(:first-child) {
+  padding-left: 3rem;
+}
+
+.nav__list-link:hover {
+  color: #00925d;
+}
+
+.home {
+  letter-spacing: 0;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.nav__list-link {
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.discover, .upcoming {
+  letter-spacing: 0;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+}
+
+.search {
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 .3rem #00925d33;
+}
+
+.search:hover {
+  box-shadow: 0 .3rem #00925d66;
+}
+
+.icon-search {
+  fill: #fff;
+  background-color: #1e1e1e;
+  width: 2rem;
+  height: 3rem;
+  padding: .3rem .4rem;
+}
+
+input[type="search"] {
+  color: #f9f9f9;
+  background-color: #1e1e1e;
+  border: none;
+  outline: none;
+  width: 25rem;
+  height: 3rem;
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+}
+
+input[type="search"]::placeholder {
+  color: gray;
+}
+
+::-webkit-search-cancel-button:after {
+  content: X;
+  color: red;
+}
+
+.hero {
+  margin-top: -.85rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon-chevron-right, .icon-chevron-left {
+  cursor: pointer;
+  width: 5rem;
+  height: 3rem;
+  position: absolute;
+}
+
+.icon-chevron-right {
+  fill: #fff;
+  top: 50%;
+  right: 0;
+}
+
+.icon-chevron-left {
+  fill: #fff;
+  top: 50%;
+  left: 0;
+}
+
+.hero__img_with_details {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hero__img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.hero__img-details {
+  z-index: 10;
+  width: 40%;
+  margin-left: 3rem;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.up {
+  margin-top: -1rem;
+}
+
+.down {
+  margin-top: 0;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.season__tag, .hero__title, .hero__genreTitleYear, .hero__overview {
+  margin: 1.6rem 2rem 0;
+  padding: .7rem;
+}
+
+.icon-play2, .icon-bookmark {
+  fill: #fff;
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.season__tag {
+  border-radius: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.hero__trailer {
+  cursor: pointer;
+  background-color: #00925db3;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  transition: all 1s;
+  display: flex;
+}
+
+.hero-helper {
+  margin: 1.6rem 0 1.6rem 2rem;
+}
+
+.hero__trailer:hover {
+  background-color: #00925d;
+  transform: scale(1.1);
+}
+
+.add-watchlist {
+  cursor: pointer;
+  background-color: #28262d99;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  transition: all 1s;
+  display: flex;
+}
+
+.watchlist-helper {
+  margin: 1.6rem 0 1.6rem 1.5rem;
+}
+
+.add-watchlist:hover {
+  background-color: #28262de6;
+  transform: scale(1.1);
+}
+
+.hero__year, .hero__genre {
+  margin-left: -.3rem;
+}
+
+.hero__title, .watch, .add {
+  text-transform: capitalize;
+}
+
+.season__tag {
+  color: #fff;
+  background-color: #0d0c0f;
+  font-family: Rubik, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.hero__title {
+  color: #fff;
+  font-family: Rubik, sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 4rem;
+}
+
+.hero__genreTitleYear {
+  letter-spacing: .1rem;
+  color: #fff;
+  font-family: Rubik, sans-serif;
+  font-size: 1rem;
+  line-height: 2.2rem;
+}
+
+.hero__overview {
+  letter-spacing: .1rem;
+  color: #fff;
+  -webkit-line-clamp: 3;
+  white-space: pre-wrap;
+  -webkit-box-orient: vertical;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.watch, .add {
+  letter-spacing: .1rem;
+  color: #f9f9f9;
+  font-family: Inter, sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.dot-container {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+}
+
+.dot {
+  background-color: #bbb;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 2px;
+  transition: all .6s;
+  display: inline-block;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.swiper__container-hero, .heroswiper {
+  width: 100%;
+  height: 100%;
+}
+
+.heropagination > .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+.heropagination > .swiper-pagination-bullet {
+  background-color: #fff;
+  transition: all 1s;
+}
+
+.heroScroll {
+  display: none;
+}
+
+.heroPrev, .heroNext {
+  color: #fff;
+}
+
+/*# sourceMappingURL=index.3d71110e.css.map */

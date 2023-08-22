@@ -1,0 +1,56 @@
+.footer {
+  max-width: 100vw;
+  margin: 3rem 0;
+  padding: 0 4rem;
+}
+
+.footer-1 {
+  justify-content: space-between;
+  display: flex;
+}
+
+.icon-twitter, .icon-instagram, .icon-facebook, .icon-linkedin {
+  fill: #fff;
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.footer-1-icons {
+  margin: 3.5rem 0 0 2rem;
+}
+
+.footer-1-trust-para {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: Rubik, sans-serif;
+  font-size: medium;
+  line-height: 2.2rem;
+}
+
+.footer-1-link, .footer-2-link {
+  text-transform: capitalize;
+  color: #fff;
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-2 {
+  justify-content: space-between;
+  margin: 3rem 8rem 0 0;
+  display: flex;
+}
+
+.footer-2-link, .footer-2-copyrigth {
+  text-transform: capitalize;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.footer-2-link:not(:last-child) {
+  margin-right: 2rem;
+}
+
+/*# sourceMappingURL=index.21636acc.css.map */

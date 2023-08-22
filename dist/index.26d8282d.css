@@ -1,0 +1,125 @@
+@media only screen and (width >= 200px) {
+  html {
+    font-size: 42.5%;
+  }
+
+  .popular {
+    margin-top: 2rem;
+  }
+
+  .popularswiper {
+    padding-left: 1rem;
+  }
+
+  .popular-wrapper {
+    height: 10rem;
+  }
+
+  .popular-rating {
+    margin: .5rem 0 1rem .8rem;
+  }
+
+  .popular-Prev, .popular-Next {
+    color: #f9f9f9;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (width >= 300px) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .popular {
+    margin-top: 2rem;
+  }
+
+  .popularswiper {
+    padding-left: 1rem;
+  }
+
+  .popular-wrapper {
+    height: 10rem;
+  }
+}
+
+@media only screen and (width >= 460px) {
+  html {
+    font-size: 57.5%;
+  }
+
+  .popular {
+    margin-top: 2rem;
+  }
+
+  .popularswiper {
+    padding-left: 1rem;
+  }
+
+  .popular-wrapper {
+    height: 10rem;
+  }
+
+  .popular-img {
+    left: 4rem;
+  }
+}
+
+@media only screen and (width >= 600px) {
+  html {
+    font-size: 60.5%;
+  }
+
+  .popularswiper {
+    padding-left: 3rem;
+  }
+
+  .popular {
+    margin-top: 2rem;
+  }
+
+  .popular-wrapper {
+    height: 10rem;
+  }
+}
+
+@media only screen and (width >= 740px) {
+  html {
+    font-size: 61.5%;
+  }
+
+  .popular {
+    margin-top: 2rem;
+  }
+
+  .popular-wrapper {
+    height: 10rem;
+  }
+
+  .popular-img {
+    left: 4rem;
+  }
+}
+
+@media only screen and (width >= 900px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .popular-Prev, .popular-Next {
+    color: #f9f9f9;
+    visibility: visible;
+  }
+
+  .popularswiper {
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (width >= 1060px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/*# sourceMappingURL=index.26d8282d.css.map */

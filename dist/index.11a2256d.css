@@ -1,0 +1,231 @@
+.movie-awards {
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2rem;
+  max-width: 100vw;
+  margin: 3rem 0 2rem;
+  padding-left: 3.5rem;
+  display: grid;
+}
+
+.movie-awards-1 {
+  min-width: 0;
+}
+
+.movie-awards-wrapper {
+  height: 70rem;
+}
+
+.movie-awards-img {
+  width: 100%;
+  height: 50%;
+}
+
+.movie-awards-info {
+  margin-top: 3rem;
+  overflow: hidden;
+}
+
+.movie-awards-category {
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #0d0c0f;
+  border-radius: 1rem;
+  padding: .7rem;
+  font-family: Rubik, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.movie-awards-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: 2rem;
+  font-family: Rubik, sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 4rem;
+  display: block;
+  overflow: hidden;
+}
+
+.movie-awards-rating-genre {
+  margin-top: 2rem;
+  display: block;
+}
+
+.movie-awards-overview {
+  color: #fff;
+  -webkit-line-clamp: 3;
+  white-space: pre-wrap;
+  -webkit-box-orient: vertical;
+  margin-top: 1rem;
+  font-family: Rubik, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.flex2 {
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+  display: flex;
+}
+
+.movie-awards-play {
+  cursor: pointer;
+  background-color: #00925db3;
+  border-radius: 1rem;
+  margin: 1.6rem 20rem 1.6rem 0;
+  padding: 1rem;
+  transition: all 1s;
+  display: inline-block;
+}
+
+.movie-awards-play:hover {
+  background-color: #00925d;
+  transform: scale(1.1);
+}
+
+.movie-awards-add {
+  cursor: pointer;
+  background-color: #28262d99;
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: all 1s;
+}
+
+.movie-awards-add:hover {
+  background-color: #28262de6;
+  transform: scale(1.1);
+}
+
+.movie-awards-Prev, .movie-awards-Next {
+  color: #f9f9f9;
+  top: 2rem;
+}
+
+.movie-awards-Prev {
+  left: 60rem;
+}
+
+.movie-awards-Next {
+  right: 1.3rem;
+}
+
+.fast {
+  min-width: 0;
+}
+
+.fast-wrapper {
+  height: 70rem;
+}
+
+.fast-Prev, .fast-Next {
+  color: #f9f9f9;
+  top: 2rem;
+}
+
+.fast-Prev {
+  left: 25rem;
+}
+
+.fast-Next {
+  right: 1.3rem;
+}
+
+.fast-slide-grid {
+  height: 15.8rem;
+  position: relative;
+}
+
+.fast-slide-grid:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.fast-slide-grid-img {
+  border-radius: 2rem;
+  width: 45%;
+  height: 100%;
+}
+
+.fast-slide-grid-info {
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}
+
+.fast-pg {
+  color: gray;
+  text-transform: uppercase;
+  border: .1rem solid gray;
+  border-radius: .4rem;
+  padding: .3rem;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.fast-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: .1rem;
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 2rem;
+  display: block;
+  overflow: hidden;
+}
+
+.fast-genre {
+  letter-spacing: .1rem;
+  color: gray;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+}
+
+.fast-rating {
+  align-items: center;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.fast-rating-num {
+  letter-spacing: .1rem;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.fast-rating-genre {
+  letter-spacing: .1rem;
+  color: gray;
+  text-transform: capitalize;
+  font-family: Inter, sans-serif;
+  font-size: .8rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.live {
+  min-width: 0;
+}
+
+/*# sourceMappingURL=index.11a2256d.css.map */

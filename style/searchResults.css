@@ -1,0 +1,100 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+html{
+    font-size: 62.5%;
+
+}
+
+.body{
+    max-width: 100%;
+}
+
+/* .searchResults{
+    border: 2px solid red;
+} */
+
+.outerBorder{
+    border: 1px solid #F9F9F9;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.headerr{
+    margin-top: 4rem;
+}
+
+.innerFrame, .innerFrame2{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    overflow: hidden;
+    
+}
+
+.searchPoster{
+    height: 100%;
+    margin-right: 1rem;
+    padding: .5rem 0 .2rem 0;
+
+}
+
+.moreResults{
+    margin: 1rem 0 1rem 0;
+}
+
+.TvResults, .movieResults{
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #F9F9F9;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.moreResults{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: #00925d;
+    text-transform: capitalize;
+    padding-bottom: .5rem;   
+    cursor: pointer;
+}
+
+.mainFrame, .mainFrame2{
+    padding: 2rem 2rem 0 2rem;
+}
+
+.searchTitle{
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: #F9F9F9;
+    text-transform: capitalize;
+    
+}
+
+.searchinfo--deep{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    
+    font-size: 1rem;
+    line-height: 0.8rem;
+    color: #F9F9F9;
+    text-transform: capitalize;
+}
+
+
+hr{
+    width: 100%;
+}

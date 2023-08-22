@@ -1,0 +1,170 @@
+
+.popular{
+/* border: 2px solid red; */
+margin-top: 3rem;
+max-width: 100vw;
+
+}
+
+.popularswiper{
+    /* border: 2px solid green; */
+    padding-left: 5rem;
+    
+}
+
+.popular-wrapper{
+    /* border: 2px solid blue; */
+    height: 12rem;
+   
+
+   
+}
+
+.popular-slide{
+    /* border: 2px solid yellow; */
+    /* border-radius: 2rem; */
+    overflow: hidden;
+    position: relative;
+  
+}
+
+.popular-img{
+    height: 100%;
+    width: 30%;
+    border-radius: 1.3rem;
+    position: absolute;
+    left: 5rem;
+    
+}
+
+.popular-info{
+   
+    position: absolute;
+    right: .5rem;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+}
+
+.popular-num{
+    width: 15%;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    /* border: 2px solid indigo; */
+}
+
+.popular-pg{
+    display: inline-block;
+    border-radius: .4rem;
+    border: .1rem solid #808080;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #808080;
+    padding: .3rem;
+    text-transform: uppercase;
+    margin: .4rem 0 .8rem .8rem;
+}
+
+.popular-title{
+    /* word-wrap: break-word; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin: 0rem 0 .8rem .8rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.popular-genre{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: #808080;
+    margin: 0rem 0 0.4rem .8rem;
+    text-transform: capitalize;
+
+}
+
+.popular-rating{
+display: inline-block;
+margin: 1.5rem 0 1rem .8rem;
+/* border: 2px solid gold; */
+display: flex;
+/* justify-content: center; */
+align-items: center;
+
+
+}
+
+.popular-rating-num{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+
+}
+
+.popular-rating-genre{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: .8rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    color: #808080;
+    text-transform: capitalize;    
+}
+
+.popular-num{
+    display:none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-star-full{
+    display: inline-block;
+    width: 2rem;
+    height: 1.7rem;
+    padding:0.3rem 0.4rem ;
+
+    fill: gold;
+    /* border: 2px solid red; */
+    
+    
+}
+
+
+.popular__heading{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #F9F9F9;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.popular-Prev,.popular-Next{
+    color: #F9F9F9;
+}
+
+
