@@ -29,6 +29,7 @@ const searchController = async function(){
 const navMenu = function(){
   navMenuView._navMenu();
   navMenuView._observerView(navMenuView._changeNavbg);
+
 }
 
 const heroTop3 = async function(){
