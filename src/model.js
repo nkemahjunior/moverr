@@ -29,6 +29,8 @@ const options = {
     live4 : [],
     live5 : [],
     searchResults : [],
+    searchResultsTV : [],
+    searchResultsMovie : [],
 
   }
 
@@ -284,7 +286,36 @@ export const searchFunctionality = async function(query){
     const response = await fetch(`https://api.themoviedb.org/3/search/multi?query=${query}&include_adult=false&language=en-US&page=1`, options);
     const data = await response.json();
     const {results} = data;
-    console.log(results)
+     //console.log(results)
+
+    const TvResults = results.filter(el => el.media_type === "tv");
+    const movieResults = results.filter(el => el.media_type === "movie");
+
+    state.searchResultsTV = TvResults.map((el) => {
+      return {     
+        poster : 'https://image.tmdb.org/t/p/original'  + el.poster_path,
+        id :  el.id,
+        release_date : el.release_date ? el.release_date : el.first_air_date,
+        title: el.name ? el.name : el.title,
+        genreID : el.genre_ids[0],
+        overview : el.overview,
+        mediaType : el.media_type,
+      }
+    })
+
+    state.searchResultsMovie = movieResults.map(el => {
+      return {     
+        poster : 'https://image.tmdb.org/t/p/original'  + el.poster_path,
+        id :  el.id,
+        release_date : el.release_date ? el.release_date : el.first_air_date,
+        title: el.name ? el.name : el.title,
+        genreID : el.genre_ids[0],
+        overview : el.overview,
+        mediaType : el.media_type,
+      }
+    })
+
+    //state.searchResultsMovie.forEach(el => console.log(el))
     
     state.searchResults = results.map((el) => {
       return {     

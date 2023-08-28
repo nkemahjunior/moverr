@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="../style/movieOnAwards.css">
     <link rel="stylesheet" href="../style/movieOnAwards2.css">
     <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/searchResults.css">
 
     
     
@@ -41,7 +42,139 @@
 </head>
 <body class="body">
 
-    <a href="index2.html">teeedeeeeeeeeeee</a>
+    <div class="searchResult">
+        <section class="main-container"> 
+            
+    
+            <section class="searchResults">
+                <h2 class="TvResults">Tv shows</h2>
+                <div class="outerBorder">
+                    <button class="previous"> go back</button>
+                    <div class="mainFrame">
+                         <!-- <div class="innerFrame">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="innerFrame">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="innerFrame">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="innerFrame">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="innerFrame">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>  -->
+    
+                        <div class="moreResults">more Matches</div>
+                    </div>
+    
+                    <h2 class="movieResults">Movie</h2>
+    
+                    <div class="mainFrame2">
+                        <div class="innerFrame2">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="innerFrame2">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="innerFrame2">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="innerFrame2">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="innerFrame2">
+                            <div class="searchPoster">
+                                <img class="searchPoster" src="../images/m4.jpg" alt="results poster">
+                            </div>
+                            <div class="searchInfo">
+                                <div class="searchTitle">test title</div>
+                                <div class="searchinfo--deep">test overview</div>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="moreResults">more Matches</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    
     
 
     <div class="menu rotate ">
@@ -57,32 +190,36 @@
     <div class="menuContent menuContent-display addAnimation  "></div>
                     
     <section class="main-container"> 
+
+
             
+        <nav class="nav nav-bg">
+                
+            <div class="nav__logo">
+                <!-- <img src="../images/logo.jpg" alt="" class="nav__logo-img"> -->
+            </div>
+
+            <div class="nav__list">
+                <a href="" class="nav__list-link home">Home</a>
+                <a href="" class="nav__list-link discover">Discover</a>
+                <a href="" class="nav__list-link upcoming">Upcoming</a>
+                
+            </div>
+
+            <form class="inputF"  role="search" ><!--for screen readers -->
+                <div class="search">
+                    <svg class="icon icon-search"><use xlink:href="../images/sprite.svg#icon-search"></use></svg>
+                    <input type="search" placeholder="Search..."
+                    aria-label="search a movie or series" class="searchInput"><!--for screen readers -->
+                </div>
+            </form>
+        
+        </nav>
+            
+        <div class="body-wrapper">
         <section class="header">
 
-    
-            <nav class="nav nav-bg">
-                
-                <div class="nav__logo">
-                    <!-- <img src="../images/logo.jpg" alt="" class="nav__logo-img"> -->
-                </div>
 
-                <div class="nav__list">
-                    <a href="" class="nav__list-link home">Home</a>
-                    <a href="" class="nav__list-link discover">Discover</a>
-                    <a href="" class="nav__list-link upcoming">Upcoming</a>
-                    
-                </div>
-
-                <form class="inputF"  role="search" ><!--for screen readers -->
-                    <div class="search">
-                        <svg class="icon icon-search"><use xlink:href="../images/sprite.svg#icon-search"></use></svg>
-                        <input type="search" placeholder="Search..."
-                        aria-label="search a movie or series" class="searchInput"><!--for screen readers -->
-                    </div>
-                </form>
-            
-            </nav>
             
 
             <div class="hero">
@@ -2024,6 +2161,7 @@
         
         </section>
 
+        </div>
         <hr>
         <footer class="footer">
             <div class="footer-1">

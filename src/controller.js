@@ -20,7 +20,7 @@ const searchController = async function(){
     await searchFunctionality(query);
     console.log("query has been sent")
     searchView._clearInputBar();
-    searchView._searchPageRender(state.searchResults)
+    searchView._searchPageRender(state.searchResultsTV)
   }
   else console.log("no query now")
   
@@ -108,6 +108,7 @@ const liveController = async function(){
 
 
 const init = function(){
+  
   searchView._searchHandler(searchController)
   navMenu();
   heroTop3();

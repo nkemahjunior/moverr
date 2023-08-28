@@ -22,30 +22,56 @@ class SearchView{
         })
     }
 
-    _searchPageRender(data){
+    _searchPageRender(TVdata){
          const mainFrame = document.querySelector('.mainFrame')
-         console.log(mainFrame + "  all goood")
+         
 
 
 
-        // mainFrame.insertAdjacentHTML('afterbegin',` 
-        //     ${
-        //         data.map((el) =>{
-        //             return `
-        //             <div class="innerFrame">
-        //             <div class="searchPoster">
-        //                 <img class="searchPoster" src="${el.poster}" alt="results poster">
-        //             </div>
-        //             <div class="searchInfo">
-        //                 <div class="searchTitle">${el.title}</div>
-        //                 <div class="searchinfo--deep">test overview</div>
-        //             </div>
-        //         </div>
-        //         <hr>
-        //             `
-        //         }).join('')
-        //     }
-        // `)
+        mainFrame.insertAdjacentHTML('afterbegin',` 
+            ${
+                TVdata.map((el,i) =>{
+                    if(i > 4) return;
+                    return `
+                    <div class="innerFrame">
+                    <div class="searchPoster">
+                        <img class="searchPoster" src="${el.poster}" alt="results poster">
+                    </div>
+                    <div class="searchInfo">
+                        <div class="searchTitle">${el.title}</div>
+                        <div class="searchinfo--deep">test overview</div>
+                    </div>
+                </div>
+                <hr>
+                    `
+                }).join('')
+            }
+        `)
+    }
+    _searchPageRender2(TVdata){
+         const mainFrame = document.querySelector('.mainFrame')
+         
+
+
+
+        mainFrame.insertAdjacentHTML('afterbegin',` 
+            ${
+                TVdata.map((el,i) =>{
+                    return `
+                    <div class="innerFrame">
+                    <div class="searchPoster">
+                        <img class="searchPoster" src="${el.poster}" alt="results poster">
+                    </div>
+                    <div class="searchInfo">
+                        <div class="searchTitle">${el.title}</div>
+                        <div class="searchinfo--deep">test overview</div>
+                    </div>
+                </div>
+                <hr>
+                    `
+                }).join('')
+            }
+        `)
     }
 
 

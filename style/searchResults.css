@@ -67,10 +67,23 @@ html{
     text-transform: capitalize;
     padding-bottom: .5rem;   
     cursor: pointer;
+    /* b */
 }
 
 .mainFrame, .mainFrame2{
     padding: 2rem 2rem 0 2rem;
+}
+
+.previous{
+    background-color: #00925d;
+    padding: 1rem;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+.previous :hover{
+    background-color:  rgba(0, 146, 93,0.2);
 }
 
 .searchTitle{
@@ -97,4 +110,8 @@ html{
 
 hr{
     width: 100%;
+}
+
+.main-container{
+    margin-top: 4rem;
 }
